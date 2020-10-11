@@ -1,0 +1,95 @@
+*
+{
+    box-sizing: border-box; 
+    margin: 0; 
+    padding: 0 ; 
+    
+}
+body
+{
+    background-color: #262626;
+}
+
+.Box-area
+{
+    width: 70%; 
+    margin: auto;
+    background-color: #555;
+    display: flex; 
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.Box-area .box
+{
+    position: relative;
+    width: 300px ; 
+    background-color: #fff;
+    text-align: center;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-left: 1%; 
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 4px ;
+    transition: all .5s  ;
+}
+
+.Box-area .box:hover
+{
+    background-color: #e83493 ; 
+    color: #fff;
+}
+
+
+.Box-area .box .img-area
+{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    width:80px; 
+    height: 80px; 
+    border: 6px  solid #ddd; 
+    border-radius: 50%; 
+    margin-bottom: 10px; 
+    padding: 20px; 
+    background-size: cover; 
+    background-position: center center ;
+}
+.Box-area .box .header-text
+{
+    font-size: 24px; 
+    font-weight: 500; 
+    line-height: 50px;
+}
+.Box-area .box .img-text
+{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+}
+.Box-area .box .img-text p 
+{
+    font-size: 15px ;
+    font-weight: 400; 
+    line-height: 30px;
+}
+
+.Box-area .box .img-area:first-child
+{
+    background-image: url(../images/1.jpeg);
+}
+
+.Box-area .box .img-area:nth-child(2)
+{
+    background-image: url(../images/a.jpeg)  ;
+}
+
+.Box-area .box .img-area:last-child
+{
+    background-image: url(../images/c.jpeg) ;
+}
+
+
